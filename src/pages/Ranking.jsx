@@ -49,7 +49,7 @@ class Ranking extends React.Component {
                   </h2>
                 </div>)}
                 {firstThrees.length>= 1 && (
-                  <div className="">
+                  <div className={firstThrees.length === 1 && 'm-auto'}>
                     <div className="">
                     <h1 className='p-2 font-bold text-3xl text-[#faac50]'>1º</h1>
                     <img
